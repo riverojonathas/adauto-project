@@ -1,0 +1,56 @@
+.matrix-container {
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    font-family: 'Inter', sans-serif;
+}
+
+.matrix-header {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.matrix-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1a202c;
+    margin-bottom: 0.5rem;
+}
+
+.matrix-subtitle {
+    color: #4a5568;
+    font-size: 0.875rem;
+}
+
+.matrix-canvas-container {
+    position: relative;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 2px solid #e2e8f0;
+    overflow: hidden;
+}
+
+.matrix-legend {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: #f8fafc;
+    border-radius: 8px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    color: #4a5568;
+}
+
+.legend-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+} 
